@@ -10,9 +10,12 @@ with st.expander("Credits"):
     st.write("The redirection to HyperloopOne's transit map was made using Tennessine.uk's Metro Building by the same maker of this website")
     st.write("This is an official website of Team Oceana for the Future City Project of 2025")
 
-url = 'https://tennessine.co.uk/metro/70f7f437184cfe3'
+link = "https://tennessine.co.uk/metro/70f7f437184cfe3"
 
-st.markdown(f'''
-<a href={url}><button style="background-color:Gray;">See HyperloopOne Transit System</button></a>
-''',
-unsafe_allow_html=True)
+st.markdown(f"""
+    <a href="{link}" target="_blank" style="text-decoration: none;">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+            HyperloopOne Transit System Map
+        </button>
+    </a>
+""", unsafe_allow_html=True)
