@@ -19,3 +19,51 @@ st.markdown(f"""
         </button>
     </a>
 """, unsafe_allow_html=True)
+
+st.header("Our Trains")
+
+st.subheader("Loop 1")
+
+st.write("Local Supersonic Hyperloop")
+st.write(" - 718kts")
+st.write(" - Triple-section Seating (Economy, Business, First)")
+st.write(" - Maglev Train")
+st.write(" - Tubed Vacuum Train")
+st.write(" - Seats 140 (3-section seating)")
+
+st.subheader("Loop 2")
+
+st.write("Regional Supersonic Hyperloop")
+st.write(" - 1200kts")
+st.write(" - Four-section Seating (Economy, Business, First, Suite)")
+st.write(" - Maglev Train")
+st.write(" - Tubed Vacuum Train")
+st.write(" - Seats 280 (4-section seating)")
+
+st.subheader("Loop 2-M2124")
+
+st.write("Cross-country Supersonic Hyperloop")
+st.write(" - 1450kts")
+st.write(" - Five-section Seating (Economy, Business, First, Suite, Cabin Crew Quarters on FL2)")
+st.write(" - Maglev Train")
+st.write(" - Tubed Vacuum Train")
+st.write(" - Seats 300 (5-section seating)")
+
+st.subheader("SecureTransit - SubLoop A")
+
+st.write("Local Subsonic Metrolink")
+st.write(" - 350kts")
+st.write(" - Single-section Seating (Coach)")
+st.write(" - Maglev Train")
+st.write(" - Underground Transit Train")
+st.write(" - Seats 65")
+
+st.subheader("Loop 3 | Overture")
+
+st.write("Overseas Supersonic Hyperloop")
+st.write(" - 1600kts")
+st.write(" - Five-section Seating (Economy, Business, First, Suite, Cabin Crew Quarters on FL2)")
+st.write(" - Maglev Train")
+st.write(" - Tubed Vacuum Train")
+st.write(" - Seats 345 (3-section seating)")
+st.write(" - Seats 300 (5-section seating)")
