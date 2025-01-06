@@ -15,7 +15,7 @@ link = "https://tennessine.co.uk/metro/70f7f437184cfe3"
 st.markdown(f"""
     <a href="{link}" target="_blank" style="text-decoration: none;">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
-            HyperloopOne Transit System Map
+            🔒 HyperloopOne Transit System Map
         </button>
     </a>
 """, unsafe_allow_html=True)
